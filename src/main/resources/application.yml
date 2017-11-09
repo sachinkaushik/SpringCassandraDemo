@@ -1,0 +1,21 @@
+server:
+    address: localhost
+    port: 8889
+    contextPath: /SpringCassandraDemo
+  
+spring:
+  application:
+    name: SpringCassandraDemo
+    
+ 
+cassandra:
+  host: 127.0.0.1:9042
+  cluster:
+    name: test
+    username: cassandra
+    password: cassandra
+  keyspace:
+    name: tuturself
+     
+    
+
